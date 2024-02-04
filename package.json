@@ -1,8 +1,8 @@
 {
-  "name": "notes-app",
+  "name": "notes",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://vxuc.github.io/notes/"
+  "homepage": "https://vxuc.github.io/notes/",
   "type": "module",
   "scripts": {
     "dev": "vite",
