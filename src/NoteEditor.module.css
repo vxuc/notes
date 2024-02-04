@@ -1,0 +1,64 @@
+.editorContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.toolbar {
+  align-items: center;
+  border-bottom: 1px solid #e2e8f0;
+  padding: 0rem 0.65rem 0.5rem 0.65rem;
+}
+
+.textEditor {
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.textEditorContent {
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 0.5rem;
+  line-height: 0.1rem;
+}
+
+.toolbarButton,
+.toolbarDeleteButton {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  background-color: white;
+  color: #0f172a;
+  border: none;
+  cursor: pointer;
+}
+
+.toolbarDelete {
+  float: right;
+}
+
+.toolbarButtonActive {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  background-color: #e2e8f0;
+  color: #0f172a;
+  border: none;
+  cursor: pointer;
+}
+
+.toolbarButton:hover {
+  background-color: #f1f5f9;
+}
+
+.inputField {
+  padding: 0.5rem;
+  outline: none;
+  border: none;
+  font-weight: bold;
+  font-size: 2rem;
+  height: 5rem;
+}

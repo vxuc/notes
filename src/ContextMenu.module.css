@@ -1,0 +1,54 @@
+.contextMenu,
+.contextMenuActive {
+  visibility: hidden;
+  opacity: 0;
+  background-color: #e2e8f0;
+  position: fixed;
+  z-index: 5;
+  color: black;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #aaa;
+  font-size: 0.875rem;
+  width: 100%;
+  max-width: 200px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+}
+
+.contextMenuActive {
+  visibility: visible;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.contextMenuButton {
+  width: 100%;
+  background-color: transparent;
+  border: 0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 5px 8px;
+  cursor: pointer;
+  color: black;
+}
+
+.contextMenuButton:hover {
+  background-color: #909fb1;
+  color: white;
+}
+
+.contextMenu hr {
+  border: 0;
+  border-bottom: 1px solid #aaa;
+  background-color: transparent;
+  margin: 5px 0;
+}
+
+.contextMenu .icon {
+  opacity: 1;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
